@@ -2,6 +2,6 @@
     "compilerOptions": 
     {
     "outDir": "impl",
-    "noEmit": true
+    "noEmitOnError": false
     }
 }

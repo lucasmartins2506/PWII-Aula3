@@ -1,9 +1,10 @@
-var resultado = 0;
-var nota1 = 10;
-var nota2 = 5;
-var nota3 = 6;
+{
+let n1: number = 12;
+let n2: number = 7;
+let n3: number = 9;
+let fmedia = function(nota1:number,nota2:number,nota3:number):number{
+    return(nota1 + nota2 + nota3) / 3
+}
 
-resultado = nota1 +  nota2 + nota3;
-resultado = resultado;
-
-console.log("O resultado é: " + resultado);
+console.log(`A média é ${fmedia(n1,n2,n3)}`)
+}
